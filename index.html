@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Laboratorio S10</title>
+  <style>
+    body { font-family: sans-serif; background: #f4f4f9; padding: 20px; text-align: center; }
+    .search-box { margin-bottom: 20px; }
+    input { padding: 8px; width: 200px; }
+    button { padding: 8px 15px; cursor: pointer; }
+    #usuarios { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+    .card { background: white; padding: 15px; border-radius: 8px; width: 220px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card img { border-radius: 50%; width: 100px; }
+  </style>
+</head>
+<body>
+
+  <div class="search-box">
+    <input type="text" id="inputBuscar" placeholder="Buscar por nombre...">
+    <button id="btnBuscar">Buscar</button>
+  </div>
+
+  <div id="usuarios"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
